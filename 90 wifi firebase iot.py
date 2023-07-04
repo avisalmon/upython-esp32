@@ -17,7 +17,7 @@ print(station.scan())
 
 print(station.isconnected())
 
-station.connect("Redmi Note 11 Pro 5G", "aviaviavi")
+station.connect("Redmi Note 11 Pro 5G", "****")
 
 while station.isconnected() == False:
     pass
