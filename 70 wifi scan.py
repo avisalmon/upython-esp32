@@ -14,10 +14,10 @@ print(station.scan())
 
 print(station.isconnected())
 
-station.connect("Avi1", "*****")
+#station.connect("Avi1", "*****")
 
-while station.isconnected() == False:
-    pass
+#while station.isconnected() == False:
+#    pass
 
-print(station.isconnected())
-print(station.ifconfig())
+#print(station.isconnected())
+#print(station.ifconfig())
